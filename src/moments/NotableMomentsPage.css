@@ -1,0 +1,104 @@
+.moments-wrapper {
+  margin: 2%;
+}
+
+.title-video,
+.title-picture {
+  text-align: center;
+  margin-top: 3%;
+  color: orange;
+  font-size: 42px;
+}
+
+.notable-moments-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  padding: 2rem;
+}
+
+.notable-moments-container h1 {
+  margin-bottom: 2rem;
+}
+
+.video-container {
+  margin-bottom: 2rem;
+}
+
+.video-container h2 {
+  color: orange;
+}
+
+.responsive-iframe {
+  width: 40vw;
+  height: 45vh;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.notable-moments-container p {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.awards-picture-description {
+  text-align: center;
+  font-size: 18px;
+  padding-left: 28%;
+  padding-right: 28%;
+}
+
+.awards-description-container {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .responsive-iframe {
+    width: 80vw;
+    height: 20vh;
+  }
+
+  .notable-moments-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .notable-moments-container p {
+    font-size: 1.2rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .awards-picture-description {
+    text-align: center;
+    font-size: 1.2rem;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .responsive-iframe {
+    width: 80vw;
+    height: 40vh;
+  }
+
+  .notable-moments-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .notable-moments-container p {
+    font-size: 1.2rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .awards-picture-description {
+    text-align: center;
+    font-size: 1.2rem;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}

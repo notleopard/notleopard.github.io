@@ -1,0 +1,180 @@
+.esports-wrapper {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.title-LAN,
+.title-fuel,
+.title-awards {
+  text-align: center;
+  color: orange;
+  font-size: 42px;
+}
+
+.team-title {
+  color: orange;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.subtitle-fuel,
+.subtitle-lan,
+.subtitle-awards {
+  text-align: center;
+  font-size: 18px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.team-list {
+  text-align: left;
+  width: fit-content;
+  margin: 0 auto;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.team-list ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.team-list ul li {
+  font-size: 18px;
+}
+
+.team-list ul li:before {
+  content: "•";
+  color: orange;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.esports-picture-description {
+  text-align: center;
+  font-size: 18px;
+}
+
+.esports-description-container {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.slide-container-esports {
+  margin-top: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slide-container-esports img {
+  width: 40%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+  max-height: 50vh;
+  cursor: pointer;
+}
+
+.more-text {
+  color: orange;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .subtitle-fuel,
+  .subtitle-lan,
+  .subtitle-awards {
+    text-align: center;
+    font-size: 18px;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .team-list {
+    width: fit-content;
+    margin-left: 10px;
+    padding-left: 5%;
+    list-style-position: inside;
+  }
+
+  .team-list ul {
+    list-style-type: none;
+    padding-left: 4%;
+    padding-right: 2%;
+  }
+
+  .team-list ul li {
+    font-size: 18px;
+    margin-bottom: 7px;
+  }
+
+  .team-list ul li:before {
+    content: "•";
+    color: orange;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  .slide-container-esports img {
+    width: 65%;
+  }
+  .back-button {
+    display: none;
+  }
+  .next-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .slide-container-esports img {
+    max-height: 40vh;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .slide-container-esports img {
+    max-height: 35vh;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .slide-container-esports img {
+    max-height: 33vh;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .slide-container-esports img {
+    width: 61%;
+    max-height: 500vh;
+  }
+
+  .slide-container-esports .carousel-button {
+    top: 46%;
+  }
+
+  .slide-container-esports .back-button {
+    left: 11%;
+  }
+
+  .slide-container-esports .next-button {
+    right: 11%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .esports-description-container {
+    display: none;
+  }
+
+  .esports-picture-description {
+    display: none;
+  }
+}

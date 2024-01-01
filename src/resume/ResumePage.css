@@ -1,0 +1,115 @@
+.resume-container {
+  color: white;
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.resume-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.25rem;
+  text-align: center;
+  color: orange;
+}
+
+.resume-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: orange;
+}
+
+.resume-section p,
+.resume-section ul {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.resume-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resume-section ul li span {
+  color: orange;
+}
+
+.resume-section ul li:before {
+  content: "•";
+  color: orange;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.resume-footer {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 1rem;
+}
+
+.job-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+  gap: 10px;
+}
+
+.job-title {
+  color: orange;
+  font-size: 1.17em;
+  margin: 0;
+}
+
+.job-time {
+  font-style: italic;
+  color: white;
+}
+
+.resume-section a {
+  color: orange;
+  text-decoration: none;
+}
+
+.resume-section a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .resume-header {
+    margin-bottom: 50px;
+  }
+
+  .resume-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .resume-section p {
+    text-align: center;
+  }
+
+  .resume-section p,
+  .resume-section ul {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+
+  .resume-section ul li {
+    margin-bottom: 7px;
+  }
+
+  .resume-section a {
+    text-decoration: underline;
+  }
+
+  .job-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+}

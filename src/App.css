@@ -1,38 +1,132 @@
-.App {
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to right, #0a0f0d, #1c3b57);
+  color: white;
+  overflow-x: hidden;
+}
+
+.slide-container {
+  margin-top: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slide-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.slide-container img {
+  width: 40%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+  max-height: 60vh;
+  cursor: pointer;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  z-index: 2;
+}
+
+.back-button {
+  left: 26%;
+}
+
+.next-button {
+  right: 26%;
+}
+
+.dots {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dots .carousel__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: grey;
+  margin: 0 10px;
+  border: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.dots .carousel__dot--selected {
+  background-color: white;
+}
+
+.modal {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  max-height: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-container img {
+    width: 90%;
+    max-height: 50vh;
+  }
+
+  .back-button {
+    display: none;
+  }
+
+  .next-button {
+    display: none;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 899px) {
+  .slide-container img {
+    width: 70%;
+    max-height: 500vh;
   }
-  to {
-    transform: rotate(360deg);
+
+  .carousel-button {
+    top: 40%;
+  }
+
+  .back-button {
+    left: 9%;
+  }
+
+  .next-button {
+    right: 9%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .carousel-button {
+    top: 41%;
   }
 }

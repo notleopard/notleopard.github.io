@@ -1,0 +1,31 @@
+.footer-container {
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.socials-container a {
+  display: inline-block;
+  margin: 0 10px;
+  color: orange;
+  text-decoration: none;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.socials-container a:hover {
+  text-decoration: underline;
+}
+
+.socials-container img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 768px) {
+  .socials-container a {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
