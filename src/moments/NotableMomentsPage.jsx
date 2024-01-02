@@ -27,12 +27,6 @@ const NotableMomentsPage = () => {
       description:
         "A presentation at the AUB ABLE Summit 2019, showcasing milestones achieved and challenges overcame as a Deaf individual.",
     },
-    // {
-    //   title: 'MTV Reportage - "Metle Metlak" (Arabic)',
-    //   src: "https://www.youtube.com/embed/CPv0g5qUH_k?si=-5YkJ_mDtr75R8ZX",
-    //   description:
-    //     'Featuring on "Metle Metlak" TV show on MTV Lebanon to discuss the unique challenges we face as Deaf individuals and how we navigate life. This video features myself, my family, and the host Wissam Breidy.',
-    // },
     {
       title: "LBCI Reportage - Story of Success (Arabic)",
       src: "https://www.youtube.com/embed/TUJYFD27m64?si=bPJQS5IKlGpTf2A6",
@@ -74,7 +68,7 @@ const NotableMomentsPage = () => {
     const updateDimensions = () => {
       const width = window.innerWidth;
       if (width < 300) {
-        setSlideDimensions({ width: 100, height: 115 });
+        setSlideDimensions({ width: 100, height: 120 });
         setSwiping(true);
       } else if (width < 400) {
         setSlideDimensions({ width: 100, height: 95 });
@@ -93,13 +87,13 @@ const NotableMomentsPage = () => {
         setSwiping(true);
       } else if (width < 1080) {
         setSlideDimensions({ width: 100, height: 43 });
-        setSwiping(true);
+        setSwiping(false);
       } else if (width < 1235) {
         setSlideDimensions({ width: 100, height: 40 });
-        setSwiping(true);
+        setSwiping(false);
       } else if (width < 1530) {
         setSlideDimensions({ width: 100, height: 37 });
-        setSwiping(true);
+        setSwiping(false);
       } else {
         setSlideDimensions({ width: 100, height: 35 });
         setSwiping(false);

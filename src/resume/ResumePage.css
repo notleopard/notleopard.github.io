@@ -77,7 +77,6 @@
   text-decoration: underline;
 }
 
-/* Responsive Styles */
 @media screen and (max-width: 768px) {
   .resume-header {
     margin-bottom: 50px;

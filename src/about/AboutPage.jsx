@@ -43,9 +43,6 @@ const AboutPage = () => {
             served as the captain of the Fanshawe College Rocket League esports
             team and was a player on the Lebanese National Team for the Deaf for
             basketball, embodying my commitment to teamwork and leadership.{" "}
-            <a href="/esports">
-              Click here for more insight on my esports career!
-            </a>
           </p>
         </div>
         <div className="right-column">
@@ -58,7 +55,7 @@ const AboutPage = () => {
             Programming and Analysis at Fanshawe College. My journey through
             multiple co-op experiences, including significant roles at Asign and
             ATN Access Inc., has been a testament to my adaptability and passion
-            for technology. <a href="/resume">Check out my resume for more!</a>
+            for technology.
           </p>
           <h2>Motivation</h2>
           <p>
@@ -67,7 +64,6 @@ const AboutPage = () => {
             being named captain of the Fanshawe RL team and graduating from a
             mainstream high school in Lebanon without interpreter support, have
             significantly shaped my leadership skills and resilience.{" "}
-            <a href="/moments">Check out my notable moments!</a>
           </p>
         </div>
       </div>

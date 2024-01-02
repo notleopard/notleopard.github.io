@@ -63,12 +63,34 @@
   border-radius: 8px;
 }
 
-.about-container a {
-  color: orange;
+@media screen and (max-width: 768px) {
+  .about-container p {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .about-container p {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-container h1 {
+    font-size: 2rem;
+  }
+
+  .info-section {
+    width: 100%;
+  }
+
+  .left-column,
+  .right-column {
+    width: 100%;
+    min-width: 200px;
   }
 }

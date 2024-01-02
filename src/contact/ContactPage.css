@@ -36,3 +36,9 @@
     height: 1450px;
   }
 }
+
+@media screen and (max-width: 300px) {
+  .form-container {
+    padding: 0;
+  }
+}

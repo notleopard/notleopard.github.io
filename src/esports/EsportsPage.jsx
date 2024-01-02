@@ -106,7 +106,7 @@ const EsportsPage = () => {
         setSwiping(true);
       } else if (width < 900) {
         setSlideDimensions({ width: 100, height: 45 });
-        setSwiping(false);
+        setSwiping(true);
       } else if (width < 1000) {
         setSlideDimensions({ width: 100, height: 32 });
         setSwiping(false);
