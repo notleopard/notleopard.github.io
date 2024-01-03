@@ -20,7 +20,7 @@ const AboutPage = () => {
         <p className="about-me">
           My name is Ralph Constantin, I am Deaf and 24 years old. I am from
           Lebanon, Middle East, and I was raised there until I moved to Canada
-          in December 2020 to purse my education in computer programming at
+          in December 2020 to pursue my education in computer programming at
           Fanshawe College. I just completed the CPA3 - Computer Programming &
           Analysis program with a cumulative GPA of 4.05. I'm a passionate
           software and website developer and am always eager to learn and
