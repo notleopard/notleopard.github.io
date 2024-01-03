@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f9b707d7.css",
+    "main.js": "/static/js/main.90ea6aff.js",
+    "static/js/787.2dcca737.chunk.js": "/static/js/787.2dcca737.chunk.js",
+    "static/media/Leo3.jpg": "/static/media/Leo3.855c2d2e621468c758b8.jpg",
+    "static/media/Leo5.jpg": "/static/media/Leo5.0fec8448460bbde46d97.jpg",
+    "static/media/TeamPic2.jpg": "/static/media/TeamPic2.b1e094694b790663c508.jpg",
+    "static/media/TeamPic1.jpg": "/static/media/TeamPic1.cb6e1ee6a04051207312.jpg",
+    "static/media/Leo6.jpg": "/static/media/Leo6.b0507fcda194fe000841.jpg",
+    "static/media/Leo4.jpg": "/static/media/Leo4.fa892fcbf35e3c78c67a.jpg",
+    "static/media/TeamPic3.jpg": "/static/media/TeamPic3.694a7696d152ec4c27fd.jpg",
+    "static/media/RLReplay_Logo.png": "/static/media/RLReplay_Logo.a473f84361cc366607fc.png",
+    "static/media/Fanshawe Fuel Academy Red.png": "/static/media/Fanshawe Fuel Academy Red.923ba9ae9f117c488bf4.png",
+    "static/media/MVP_OTM.png": "/static/media/MVP_OTM.db8f044764b0f65ba5e3.png",
+    "static/media/GeoGreeting_Logo.png": "/static/media/GeoGreeting_Logo.6e3fc8800bb691dc1309.png",
+    "static/media/fuel.png": "/static/media/fuel.2b4237bb59c8366f2332.png",
+    "static/media/CNDL_Graduation.jpg": "/static/media/CNDL_Graduation.948bfeb0a308c6c7f91a.jpg",
+    "static/media/profile.jpg": "/static/media/profile.49241191fb87069ca687.jpg",
+    "static/media/Leopard_RL_POTY.png": "/static/media/Leopard_RL_POTY.aac5e994af4f8cecfcbf.png",
+    "static/media/NoBgLogo.png": "/static/media/NoBgLogo.5d7a35c73b6831006959.png",
+    "static/media/T3.jpg": "/static/media/T3.c655fe74accb1ee1cfbf.jpg",
+    "static/media/instagram_logo.png": "/static/media/instagram_logo.6cc0c4ed245d65d16926.png",
+    "static/media/NDU_Award.jpg": "/static/media/NDU_Award.82f7180ce9760a73942d.jpg",
+    "static/media/github_logo.png": "/static/media/github_logo.cf560bd2f79c5f64a34c.png",
+    "static/media/linkedin_logo.png": "/static/media/linkedin_logo.df3f373c358bcfdd92bb.png",
+    "index.html": "/index.html",
+    "main.f9b707d7.css.map": "/static/css/main.f9b707d7.css.map",
+    "main.90ea6aff.js.map": "/static/js/main.90ea6aff.js.map",
+    "787.2dcca737.chunk.js.map": "/static/js/787.2dcca737.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9b707d7.css",
+    "static/js/main.90ea6aff.js"
+  ]
+}
